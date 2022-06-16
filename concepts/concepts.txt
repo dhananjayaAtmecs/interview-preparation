@@ -1,0 +1,11 @@
+1. 
+
+implicit conversion--
+            To explicitly convert values to a string apply the String() function.
+
+
+explicit conversion--
+            Implicit coercion is triggered by the binary + operator, when any operand is a
+ex-
+String(123) // explicit
+123 + ''    // implicit
