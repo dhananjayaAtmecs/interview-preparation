@@ -1,0 +1,12 @@
+1. Keys Must Only Be Unique Among Siblings
+
+Keys used within arrays should be unique among their siblings. 
+However, they don’t need to be globally unique. We can use the same 
+keys when we produce two different arrays
+
+2. reconciliation.
+
+When the state of your component changes, the render function will return a new tree 
+of React elements, different to the previous/current one. React needs to figure out 
+what are the differences to efficiently update the UI with the most recent changes. 
+This process of matching both element trees is called reconciliation.

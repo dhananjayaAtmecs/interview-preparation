@@ -9,3 +9,11 @@ explicit conversion--
 ex-
 String(123) // explicit
 123 + ''    // implicit
+
+2. sleep function
+
+With the help of Sleep() we can make a function to pause execution for a fixed amount of time.
+
+ex- search in net
+
+
