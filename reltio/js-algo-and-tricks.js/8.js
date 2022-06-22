@@ -13,7 +13,7 @@ function areBracketsBalanced(expr)
     {
         let x = expr[i];
   
-        if (x == '(' || x == '[' || x == '{')
+        if (x == '(' || x == '[' || x == '{')  // rem
         {
               
             // Push the element in the stack
@@ -31,7 +31,7 @@ function areBracketsBalanced(expr)
         switch (x){
         case ')':
             check = stack.pop();
-            if (check == '{' || check == '[')
+            if (check == '{' || check == '[')  // rem
                 return false;
             break;
   
