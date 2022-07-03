@@ -10,16 +10,45 @@ ex-
 String(123) // explicit
 123 + ''    // implicit
 
+
+
+
 2. sleep function
 
 With the help of Sleep() we can make a function to pause execution for a fixed amount of time.
 
 ex- search in net
 
+
+
+
 3.Accessible Rich Internet Applications (ARIA) 
 
 Accessible Rich Internet Applications (ARIA) is a set of roles and attributes that define 
 ways to make web content and web applications (especially those developed with JavaScript) 
 more accessible to people with disabilities.
+
+
+
+
+4.In computer science, data is anything that is meaningful to the computer.
+
+
+
+5. datatypes in javascript-
+
+undefined, null, boolean, string, symbol, bigint, number, and object.
+
+
+6. If you concatenate a string with an undefined variable, you will get a string of undefined.
+
+
+
+7.When JavaScript variables are declared, they have an initial value of undefined.
+
+
+
+8.If you do a mathematical operation on an undefined variable your result will be 
+   NaN which means "Not a Number".
 
 
