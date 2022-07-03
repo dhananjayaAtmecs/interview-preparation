@@ -16,4 +16,10 @@ With the help of Sleep() we can make a function to pause execution for a fixed a
 
 ex- search in net
 
+3.Accessible Rich Internet Applications (ARIA) 
+
+Accessible Rich Internet Applications (ARIA) is a set of roles and attributes that define 
+ways to make web content and web applications (especially those developed with JavaScript) 
+more accessible to people with disabilities.
+
 
