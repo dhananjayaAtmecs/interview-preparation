@@ -52,3 +52,39 @@ undefined, null, boolean, string, symbol, bigint, number, and object.
    NaN which means "Not a Number".
 
 
+9.Why would I use a Refresh Token?
+Refresh Tokens are useful because they allow applications to get new Access Tokens without 
+forcing users to login to the system repeatedly. Typically our Access Tokens last for 20 
+minutes. This means after 20 minutes the user would have to re-authenticate in order to continue 
+to use the application interacting with the web service. This may be undesirable if the user 
+is used to a scenario where they are logged into the system until they explicitly log out or 
+close their browser window. To deal with this scenario, we have implemented Refresh Tokens which 
+allow the application to request a new Access Token, "behind the scenes", and maintain the user's 
+session beyond the length of the life of the Access Token.
+
+
+10.Difference between Authentication and Authorization.
+
+Authentication - 1. In authentication process, users or persons are verified.
+                 2. It is done before the authorization process.
+                 3. Generally, transmit information through an ID Token.
+                 4. Example : Employees in a company are required to authenticate 
+                              through the network before accessing their company email.
+
+Authorization -  1. While in this process, users or persons are validated.
+                 2. While this process is done after the authentication process.
+                 3. Generally, transmit information through an Access Token.
+                 4. Example : After an employee successfully authenticates, the system 
+                             determines what information the employees are 
+                             allowed to access. 
+
+https://www.geeksforgeeks.org/difference-between-authentication-and-authorization/
+
+
+
+
+11.What is token TTL?
+An access token has a “time-to-live” (ttl), which is the maximum time that the 
+access token will be valid for use within the application.
+
+

@@ -1,0 +1,45 @@
+1.Access Modifiers-
+Access modifiers are keywords used to specify the declared 
+accessibility of a member or a type.
+ex-Private, Public and Privileged.
+
+https://blog.livewiretoolkit.com/what-are-access-modifiers-in-javascript
+
+public: when you want to access the members everywhere in your application.
+private: when you want to access the members only inside the class.
+protected: when you want to access the members inside the class and its subclasses.
+
+
+
+2. impliments keyword-
+Interfaces (covered here) can be used to define the type a class must follow through 
+the implements keyword.
+
+ex-
+
+interface Shape {
+  getArea: () => number;
+}
+
+class Rectangle implements Shape {
+  public constructor(protected readonly width: number, protected readonly height: number) {}
+
+  public getArea(): number {
+    return this.width * this.height;
+  }
+}
+
+const myRect = new Rectangle(10,20);
+
+console.log(myRect.getArea());
+
+
+
+
+
+3. override keyword-
+When a class extends another class, it can replace the members of the parent class with the same name.
+
+Newer versions of TypeScript allow explicitly marking this with the override keyword.
+
+https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_override
